@@ -5,6 +5,10 @@ body {
     padding: 0;
 }
 
+header {
+    background-color: rgba(245,244,242,255);
+}   
+
 h1 {
     margin: 30px;
     font-size: 2em;
