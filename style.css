@@ -71,6 +71,7 @@ h1 {
 .rating {
     display: flex;
     margin: 10px 0;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .star {
