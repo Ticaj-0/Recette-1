@@ -267,9 +267,12 @@ caption {
     .instructions {
         flex: 0 0 60%;
     }
-    .logo-titre {
+}
+
+@media (max-width: 768px) {
+        .logo-titre {
         height: 120px;
-    }
+        }
 }
 
 p {
