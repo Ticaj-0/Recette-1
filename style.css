@@ -327,7 +327,8 @@ footer {
 
 .container-footer {
   display: flex;
-  align-items: center;
+  align-items: left;
+   margin-left: 40%;
 }
 
 .terms {
