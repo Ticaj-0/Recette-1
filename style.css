@@ -73,6 +73,10 @@ h1 {
     margin: 10px 0;
 }
 
+.rating:focus {
+    outline: none;
+}
+
 .star {
     cursor: pointer;
     font-size: 24px;
@@ -82,10 +86,6 @@ h1 {
 
 .star.filled {
     color: gold;
-}
-
-.star:focus {
-    outline: none;
 }
 
 .recipe-details {
