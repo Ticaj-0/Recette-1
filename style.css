@@ -259,6 +259,9 @@ caption {
     .instructions {
         flex: 0 0 60%;
     }
+    .logo {
+        height: 120px;
+    }
 }
 
 p {
