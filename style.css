@@ -88,6 +88,10 @@ h1 {
     color: gold;
 }
 
+.star:focus {
+    outline: none;
+}
+
 .recipe-details {
     margin: 10px 0;
     display: flex;
