@@ -329,7 +329,7 @@ footer {
 
 .container-footer {
   display: flex;
-  margin-left: -5%;
+  item-align: center;
 }
 
 .terms {
