@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Recette 1</title>
   <link rel="stylesheet" href="./style.css">
-  <link rel="manifest" href="manifest.json">
+  <link rel="manifest" href="/Recette/manifest.json">
   <meta name="theme-color" content="#000000">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -130,7 +130,7 @@
     // Enregistrement du service worker
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function() {
-        navigator.serviceWorker.register('Recette/service-worker.js').then(function(registration) {
+        navigator.serviceWorker.register('/Recette/service-worker.js').then(function(registration) {
           console.log('ServiceWorker registration successful with scope: ', registration.scope);
         }, function(err) {
           console.log('ServiceWorker registration failed: ', err);
